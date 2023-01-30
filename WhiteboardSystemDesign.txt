@@ -1,0 +1,20 @@
+======================WhiteboardSystemDesign===================
+													
+	Functional Requirements						Non-functional Requirements 				
+
+1)user can draw shapes							1)Persistance server, localstorage,IndexDB
+2)updating properties(background,text)			2)Performace
+3)Select the shapes								3)Security - encryption
+4)Moving the shapes								4)Responsive
+5)Resizing										
+6)Zoom in/out
+7)Rotation
+8)Save a file
+9) Save as svg/png/jpg
+10)Collaboration
+
+TechStack
+1)Canvas
+2)React
+3)compress ->
+4)

@@ -1,0 +1,10 @@
+==================System Design=================
+
+1)Design				1)System compoenents
+
+2)Requirements			2)Scale
+	
+3)Architechture			3) Security
+
+4) interface			4)Maintainable
+

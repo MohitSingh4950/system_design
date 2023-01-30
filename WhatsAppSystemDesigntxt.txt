@@ -1,0 +1,38 @@
+-----------------------Whatsapp System design-----------------------
+
+								Scoping
+
+Functional																						Non functional
+
+Module level thinking						Feature level thinking							-Mobile/Desktop
+																							-Responsive
+-Auth									-Auth											    -Optimization(Assets)
+-Chat										-QR based web login								-Security
+-Calling									-OTP based										-Auth
+-Notifications								-SSO(Single sign on)							-REaltime
+										-Chat												-Offline
+										 -One-to-one comm									-PWA
+										 -Group chats										-Caching
+										 -chat history										-Localization
+										 -Search user or in chat history					-Interntionlization
+										 -media support										-Versioning
+										-Calling											-CI/CD
+										 -Audio support										-Testing
+										 -video support
+										-Notifications
+										 -push notification
+										 -Send,delivered, read receipts
+										 -show last seen
+										 -online status
+										 -Typing indicato
+										 
+WebSocket
+
+WSS -- Wavelength Selective Switch
+
+Web Crypto API
+window.crypto.subtle
+	Available only over HTTPs
+	Generic APIs
+	Deals with Binary Data
+	Mostly return promise
