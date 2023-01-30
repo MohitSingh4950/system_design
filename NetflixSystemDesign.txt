@@ -1,0 +1,76 @@
+===================NetflixSystemDesign===================
+
+Requirements
+
+Functional  			Non-Functional
+
+Module Level Thinking		Feature level thinking			Non-Functional
+
+-supply														-Mobile/Desktop
+	-video upload			-Homepage
+	-Analytics					-Language change, 			-Streaming
+	-Meta info					-Sign in/signup				-Responsive
+	-tagging					-Configuration UI			-Device location
+							-Catalog						-Asset Organization
+								-Search						-Resource Hints
+								-Card Preview				-Open Graphs Tags
+								-Banner Preview				-Deep linking
+															-Performance
+							-Multi user management			-CSR/SSR
+								-switching bw users			-Auth
+								-parental control			-Security
+							-Video player					-HTTP2/HTTP3
+								-speed						-Caching
+								-quality					-Offline Support
+								-language					-PWA
+								-subtitle					-A/B Testing
+								-thumnails overview			-Versioning
+							-Review 						-Internationalization/Locallizations
+								-Like/Dislikes				
+								-Comments
+-Demand
+	-Multi-user management
+	-Pricing & subscription
+	-Account management
+	-Help & support
+	-Auth module
+	-Movie/Series catalog
+	-Watch list
+	-Reviews
+	
+	Challenges with the video player
+	----------------------------------
+	
+	- Automatically jump gaps in content
+	-support for storing content offline,including protected content
+	-Authentication
+	-pre-load feature
+	-Cast Support
+	-HLS(Http live supporting)
+	-Thumbnails for seeking
+	-PWAS & service workers
+	-Network filters
+	-Retries
+	-Apple HLS vs MSS(Microsoft Smooth Streaming)
+	
+	Protocols
+	----------
+	-Rest/GRaphQL
+	-JSON
+	
+	Implementation							Data Modelling
+	-------------							-------------
+	--Pagination						-URL
+	-Debouncing/Throttling				-Method
+	-Video streaming					--Request
+	-Configurable						-Response
+	-Preview					
+	-SSR								Component API 				API
+	-Image optimization					-------------				-----
+										-state/Props				-getGeneres()
+										-Event handling				--getvideos
+										-Customization				--getVideoDetails
+										-Resuability				--userPersonalization
+										-Data source
+
+	

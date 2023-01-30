@@ -1,0 +1,27 @@
+==================BookMyShowSeatAllocationSystemDesign====================
+
+	Grid Seat
+	arrangement
+		|
+		|
+		|
+	Seat Group
+		 |
+	-----|------------
+SeatRow				Label
+	|----------|
+seat-rowname  seats
+
+	Seat
+	|
+	|
+	Price : Number
+	(Type:(ENUM type) - isAvailable
+
+Concurrent Seat Booking
+
+Blocking Seat				Releasing Seat
+click seat						Cancel
+click payment button			Navigate to different page
+Click on payment gateway		Reloads
+		
